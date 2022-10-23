@@ -1,5 +1,4 @@
 
-
 /* css reset */
 * {
   box-sizing: border-box;
@@ -41,11 +40,25 @@ textarea,
 input {
   font-family: inherit;
 }
+h1,
+h2,
+h3 ,
+h4 ,
+h5 ,
+h6{
+  color: #fff;
+  font-weight: 500;
+}
+p{
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 400;
+}
 /* buttons */
 .btn{
     display: inline-block;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
    font-weight: 500;
     padding: 2rem 3rem;
     border-radius: 5px;
@@ -116,8 +129,7 @@ input {
     max-width: 600px;
     font-size: 2rem;
     line-height: 1.5;
-    color: #fff;
-    opacity: 0.7;
+   
     margin-bottom:2rem ;
 }
 
@@ -159,12 +171,11 @@ figure{
   text-align: center;
 }
 .boxes-title {
-  color: #fff;
-  font-weight: 500;
+ 
   font-size: 2.4rem;
 }
 .info-card .boxes-lead{
-  color: #fff;
+
   font-weight: 300;
   opacity: 0.7;
   font-size: 1.8rem;
@@ -173,7 +184,47 @@ figure{
   line-height: 1.3;
 
 }
-
-
-
-
+.section-order-burger{
+  background-color:#312F30;
+}
+.container-order{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   padding: 3rem 20rem; 
+}
+.order-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+}
+.order-info_title{
+ 
+  font-size: 5rem;
+ 
+}
+.order-info_lead{
+  max-width: 500px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 2rem 0;
+}
+.span{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 12px;
+}
+.big-cost{
+  color: #F6762C;
+  font-size: 2rem;
+}
+.small-cost{
+  color: #F6762C;
+  opacity: 0.7;
+  font-size:1.7rem ;
+  text-decoration:line-through;
+}
