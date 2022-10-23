@@ -1,0 +1,109 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden !important;
+  font-size: 62.5%;
+}
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+button,
+textarea,
+input {
+  font-family: inherit;
+}
+/* buttons */
+.btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
+   font-weight: 500;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.btn-primary{
+    background-color:  #F6762C;
+}
+.btn-primary:hover{
+   border: 1px solid #F6762C;
+   background: none;
+   color: #F6762C;
+}
+/* main style css */
+.header{
+    background-image: url("../assets/hero-section.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    
+} 
+.main-menu .list-menu{
+    display: flex;
+}
+.link-list{
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    opacity: 0.8;
+    
+}
+.strong{
+    color: #fff;
+    font-weight: 700;
+    opacity: 1;
+}
+.nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  padding: 1.5rem 10rem;
+   
+}
+.img-logo{
+   width: 130px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 10rem 15rem 0rem 15rem;
+    
+}
+.short-title{
+    font-size: 1.7rem;
+}
+.title-info{
+    font-size: 6rem;
+    max-width: 600px;
+    margin: 2rem 0;
+}
+.hero-description{
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom:2rem ;
+}
+
+
