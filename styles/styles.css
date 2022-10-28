@@ -13,7 +13,7 @@
 html {
   overflow-x: hidden !important;
   font-size: 62.5%;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 body {
   line-height: 1;
@@ -146,7 +146,7 @@ figure {
   background-color: var(--bg-color-dark);
 }
 .food_section-conatiner {
-  display: grid;
+  display:grid ;
   grid-template-columns: repeat(4, 1fr);
   padding: 8rem 15rem;
   gap: 31px;
@@ -238,7 +238,7 @@ figure {
 
 .product-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  grid-template-columns: repeat(2,1fr);
   gap: 40px;
 }
 
@@ -254,13 +254,13 @@ figure {
 }
 .bg-1 .order-food-gallery,
 .bg-2 .order-food-gallery,
-.bg-3 .order-food-gallery ,
-.bg-4 .order-food-gallery{
+.bg-3 .order-food-gallery,
+.bg-4 .order-food-gallery {
   color: var(--main-text-color);
   font-size: 2.7rem;
 }
 .bg-1 .order-lead-gallery,
-.bg-2 .order-lead-gallery ,
+.bg-2 .order-lead-gallery,
 .bg-3 .order-lead-gallery,
 .bg-4 .order-lead-gallery {
   color: var(--main-text-color);
@@ -280,7 +280,6 @@ figure {
   justify-content: center;
   padding: 4rem;
 }
-
 
 .bg-3 {
   background-image: url("../assets/burger-king-section.png");
@@ -303,36 +302,33 @@ figure {
   padding: 4rem;
 }
 /* testimonial-section */
-.testimonial-section{
+.testimonial-section {
   background-color: var(--bg-color-dark);
   padding: 16rem 0;
 }
-.circle-01{
+.circle-01 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
   border: 2px dashed var(--bg-color-main);
   display: block;
   position: relative;
-  
 }
-.picture-01-top{
+.picture-01-top {
   content: "";
- display: block;
- width: 200px;
- height: 200px;
- position: absolute;
- top: 90%;
- left: 20%;
- transform: translate(-50% , -50%);
- background-image: url("../assets/31.png");
- background-repeat: no-repeat;
- background-position: center;
- z-index: 9999;
- 
-
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url("../assets/31.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9999;
 }
-.picture-02-top{
+.picture-02-top {
   content: "";
   display: block;
   width: 200px;
@@ -340,13 +336,13 @@ figure {
   position: absolute;
   top: 80%;
   left: 90%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   background-image: url("../assets/27.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 9999;
 }
-.picture-03-top{
+.picture-03-top {
   content: "";
   display: block;
   width: 200px;
@@ -354,13 +350,13 @@ figure {
   position: absolute;
   top: 20%;
   left: 10%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   background-image: url("../assets/47.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 9999;
 }
-.picture-04-top{
+.picture-04-top {
   content: "";
   display: block;
   width: 200px;
@@ -368,92 +364,90 @@ figure {
   position: absolute;
   top: 20%;
   left: 90%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   background-image: url("../assets/35.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 9999;
 }
 
-.circle-02{
- content: "";
- display: block;
- width: 300px;
- height: 300px;
- border-radius: 50%;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50% , -50%);
- border: 1px dashed var(--bg-color-main);
- 
-}
-.circle-03{
+.circle-02 {
   content: "";
- display: block;
- width: 300px;
- height: 300px;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50% , -50%);
- background-image: url(../assets/Ellipse\ 5.png);
- background-repeat: no-repeat;
- background-position: center;
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dashed var(--bg-color-main);
 }
-.fa-quote-right{
+.circle-03 {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../assets/Ellipse\ 5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fa-quote-right {
   color: #f6762c;
   font-size: 40px;
   position: relative;
 }
 
-.container-testimonial{
+.container-testimonial {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 90px;
 }
-.container-testimonial-info{
+.container-testimonial-info {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.container-testimonial-lead{
+.container-testimonial-lead {
   font-size: 1.9rem;
-max-width: 400px;
-margin: 0 auto;
-text-align: center;
-line-height: 1.3;
-margin: 20px 0;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.3;
+  margin: 20px 0;
 }
-.container-testimonial-title{
+.container-testimonial-title {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-.container-testimonial-description{
+.container-testimonial-description {
   font-size: 1.6rem;
 }
 /* dl-menu */
-.dl-menu{
+.dl-menu {
   background: var(--bg-color-light);
   padding: 5rem 0;
 }
-.conteiner-menu{
+.conteiner-menu {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.title-menu{
+.title-menu {
   font-size: 3rem;
 }
-.footer-section{
+.footer-section {
   background-color: var(--bg-color-dark);
   height: 40vh;
 }
-.fa-envelope{
+.fa-envelope {
   color: var(--bg-color-main);
 }
-.fa-globe{
+.fa-globe {
   color: var(--bg-color-main);
-
 }
