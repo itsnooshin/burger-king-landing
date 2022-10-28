@@ -13,6 +13,7 @@
 html {
   overflow-x: hidden !important;
   font-size: 62.5%;
+  scroll-behavior:smooth;
 }
 body {
   line-height: 1;
@@ -444,4 +445,15 @@ margin: 20px 0;
 }
 .title-menu{
   font-size: 3rem;
+}
+.footer-section{
+  background-color: var(--bg-color-dark);
+  height: 40vh;
+}
+.fa-envelope{
+  color: var(--bg-color-main);
+}
+.fa-globe{
+  color: var(--bg-color-main);
+
 }
