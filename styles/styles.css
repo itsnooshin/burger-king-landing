@@ -109,7 +109,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 9rem;
 }
 .img-logo {
   width: 130px;
@@ -120,18 +120,19 @@ p {
   flex-direction: column;
   justify-content: center;
   color: var(--main-text-color);
-  padding: 10rem 15rem 0rem 15rem;
+  padding: 10rem 9rem 0rem 9rem;
 }
 .short-title {
   font-size: 1.7rem;
 }
 .title-info {
   font-size: 6rem;
-  max-width: 600px;
+  max-width: 500px;
+
   margin: 2rem 0;
 }
 .hero-description {
-  max-width: 600px;
+  max-width: 700px;
   font-size: 2rem;
   line-height: 1.5;
 
@@ -146,17 +147,20 @@ figure {
   background-color: var(--bg-color-dark);
 }
 .food_section-conatiner {
-  display:grid ;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 8rem 15rem;
+  max-width: 1400px;
+  margin: 0 auto;
   gap: 31px;
 }
 .cards {
   background-color: var(--bg-color-light);
   border-radius: 14px;
+  
 }
 .cards .info-card {
-  padding: 2rem 1rem 5rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .img-card .food-img {
@@ -230,6 +234,7 @@ figure {
 
 .info-text-title {
   font-size: 2.6rem;
+  color: red;
 }
 .info-text-lead {
   font-size: 1.8rem;
@@ -237,20 +242,28 @@ figure {
 }
 
 .product-section {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 40px;
+ display: flex;
+ max-width: 1250px; 
+ flex-wrap: wrap;
+  
+ margin: 0 auto;
+  gap: 10px;
+  padding: 3rem 0;
 }
 
 .bg-1 {
   background-image: url("../assets/coffe-img.png");
   background-size: cover;
+ 
+  width: 600px;
   height: 350px;
+  object-fit: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem;
 }
 .bg-1 .order-food-gallery,
 .bg-2 .order-food-gallery,
@@ -273,18 +286,27 @@ figure {
 .bg-2 {
   background-image: url("../assets/pizza-img-section.png");
   background-size: cover;
+  width: 600px;
   height: 350px;
+  object-fit: cover;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 4rem;
+
+  background-repeat: no-repeat;
+  
 }
 
 .bg-3 {
   background-image: url("../assets/burger-king-section.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
   height: 350px;
+  object-fit: cover;
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -293,13 +315,17 @@ figure {
 
 .bg-4 {
   background-image: url("../assets/sandwich-section.png");
-  background-size: cover;
-  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 4rem;
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
 }
 /* testimonial-section */
 .testimonial-section {
@@ -444,10 +470,97 @@ figure {
 .footer-section {
   background-color: var(--bg-color-dark);
   height: 40vh;
+  padding: 9rem 10rem;
+  
 }
 .fa-envelope {
   color: var(--bg-color-main);
+  font-size: 20px;
 }
 .fa-globe {
   color: var(--bg-color-main);
+  font-size: 20px;
+}
+
+.social-list{
+  display: flex;
+  gap: 2px;
+}
+.social-icon{
+  width: 30px;
+  
+
+}
+.footer-company-detail{
+  
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.company-logo{
+  width: 140px;
+}
+.social-conteiner{
+  display: flex;
+ flex-direction: column;
+
+  align-items: flex-start;
+ 
+ 
+}
+.list-footer{
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+
+}
+.social-heading{
+
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.footer-social{
+  display: flex;
+  gap: 10px;
+}
+
+.cotainer-footer{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-heading-title{
+ 
+  padding-bottom: 1rem;
+  
+  font-size: 2rem;
+  font-weight: 500;
+}
+.link-footer{
+  color: var(--main-text-color);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  display: block;
+  opacity: 0.8;
+}
+.footer-heading-title{
+  margin-bottom: 10px;
+}
+.link-mail{
+  font-size: 1.6rem;
+  color: var(--main-text-color
+  );
+  opacity: 0.8;
+  padding-left: 2px;
+}
+.link-website{
+  font-size: 1.6rem;
+  color: var(--main-text-color
+  );
+  opacity: 0.8;
+  margin-top: 4rem;
+  padding-left: 2px;
+ 
+}
+.email-company{
+  margin-bottom: 5px;
 }
